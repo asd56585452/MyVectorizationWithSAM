@@ -15,3 +15,9 @@
 2. 安裝SAM(Segment Anything Model)，並將vit_h的Model Checkpoints放在與程式同目錄下
 3. 安裝opencv、scipy、matplotlib
 4. 修改參數並執行SAMVG-sam_v1.ipynb
+
+##pngtosvg setting
+1. run pip install cairosvg
+2. install gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe
+ from https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases
+3. add C:\Program Files\GTK3-Runtime Win64\bin to PATH
