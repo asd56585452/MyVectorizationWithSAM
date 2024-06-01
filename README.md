@@ -16,7 +16,7 @@
 3. 安裝opencv、scipy、matplotlib
 4. 修改參數並執行SAMVG-sam_v1.ipynb
 
-##pngtosvg setting
+## pngtosvg setting
 1. run pip install cairosvg
 2. install gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe
  from https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases
