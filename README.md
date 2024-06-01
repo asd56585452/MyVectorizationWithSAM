@@ -21,3 +21,9 @@
 2. install gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe
  from https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases
 3. add C:\Program Files\GTK3-Runtime Win64\bin to PATH
+
+## V2預計優化
+
+1. 輪廓座標修正0.5 pixel
+2. 計算誤差時改用mask覆蓋誤差，並考慮遮擋
+3. 不要切中間，多sample一些點或用很粗略的方式找最佳分割點(例如影像壓縮的方法)
